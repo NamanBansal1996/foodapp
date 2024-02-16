@@ -51,7 +51,7 @@ export default function MainMenu() {
     ]
 
     return (
-        <div>
+        <div className="col-md-6">
             { menu.map(category =><Category categoryDetails={category}/>)}
         </div>
     ) 

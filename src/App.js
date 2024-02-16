@@ -1,14 +1,16 @@
-
 import './App.css';
+import Cart from './component/Cart';
 import Main from './component/Main';
 import MainMenu from './component/MainMenu';
 
 function App() {
-  return <div >
+  return <>
+  <div className='section'>
     <Main/>
     <MainMenu/>
-  </div>
-
+    <Cart/>
+    </div>
+    </>
 
 }
 
